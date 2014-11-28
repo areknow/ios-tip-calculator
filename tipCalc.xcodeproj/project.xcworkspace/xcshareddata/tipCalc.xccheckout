@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0CCBF41E-7C86-431A-B85E-1A11AD336EBC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tipCalc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7D71B96EF087F63937B16BE20525DA210C9B5A2F</key>
+		<string>https://github.com/arnaudcrowther/ios-tip-calculator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tipCalc.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7D71B96EF087F63937B16BE20525DA210C9B5A2F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/arnaudcrowther/ios-tip-calculator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7D71B96EF087F63937B16BE20525DA210C9B5A2F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7D71B96EF087F63937B16BE20525DA210C9B5A2F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tipCalc</string>
+		</dict>
+	</array>
+</dict>
+</plist>

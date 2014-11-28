@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510A6E531A28CDB4002006B7 /* aboutControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 510A6E521A28CDB4002006B7 /* aboutControl.m */; };
 		51172220185F529F002F2D5C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5117221F185F529F002F2D5C /* AVFoundation.framework */; };
 		51698BB4186131E000D41607 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51698BB3186131E000D41607 /* click.mp3 */; };
 		5173E09B18500E860043DEBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5173E09A18500E860043DEBD /* Foundation.framework */; };
@@ -29,7 +30,6 @@
 		519B8EAA185F6E3E00B89D00 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519B8EA9185F6E3E00B89D00 /* AudioToolbox.framework */; };
 		51B296FF1856517C005F7C6E /* settingTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B296FE1856517C005F7C6E /* settingTable.m */; };
 		51B2970218567FE4005F7C6E /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B2970118567FE4005F7C6E /* UIView+Glow.m */; };
-		51B297051856D269005F7C6E /* aboutControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B297041856D269005F7C6E /* aboutControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		510A6E511A28CDB4002006B7 /* aboutControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutControl.h; sourceTree = "<group>"; };
+		510A6E521A28CDB4002006B7 /* aboutControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutControl.m; sourceTree = "<group>"; };
 		5117221F185F529F002F2D5C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		51698BB3186131E000D41607 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
 		5173E09718500E860043DEBD /* tipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,8 +75,6 @@
 		51B296FE1856517C005F7C6E /* settingTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingTable.m; sourceTree = "<group>"; };
 		51B2970018567FE4005F7C6E /* UIView+Glow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Glow.h"; sourceTree = "<group>"; };
 		51B2970118567FE4005F7C6E /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
-		51B297031856D269005F7C6E /* aboutControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aboutControl.h; path = ../aboutControl.h; sourceTree = "<group>"; };
-		51B297041856D269005F7C6E /* aboutControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = aboutControl.m; path = ../aboutControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				5173E0AC18500E860043DEBD /* Main.storyboard */,
+				510A6E511A28CDB4002006B7 /* aboutControl.h */,
+				510A6E521A28CDB4002006B7 /* aboutControl.m */,
 				5173E0A918500E860043DEBD /* AppDelegate.h */,
 				5173E0AA18500E860043DEBD /* AppDelegate.m */,
 				5173E0CF1850EFB70043DEBD /* sliderControl.h */,
@@ -149,8 +151,6 @@
 				51B296FE1856517C005F7C6E /* settingTable.m */,
 				51B2970018567FE4005F7C6E /* UIView+Glow.h */,
 				51B2970118567FE4005F7C6E /* UIView+Glow.m */,
-				51B297031856D269005F7C6E /* aboutControl.h */,
-				51B297041856D269005F7C6E /* aboutControl.m */,
 				5173E0B218500E860043DEBD /* Images.xcassets */,
 				5173E0A118500E860043DEBD /* Supporting Files */,
 			);
@@ -296,7 +296,7 @@
 				5173E0AB18500E860043DEBD /* AppDelegate.m in Sources */,
 				5173E0D11850EFB70043DEBD /* sliderControl.m in Sources */,
 				51B2970218567FE4005F7C6E /* UIView+Glow.m in Sources */,
-				51B297051856D269005F7C6E /* aboutControl.m in Sources */,
+				510A6E531A28CDB4002006B7 /* aboutControl.m in Sources */,
 				5173E0A718500E860043DEBD /* main.m in Sources */,
 				51B296FF1856517C005F7C6E /* settingTable.m in Sources */,
 			);
